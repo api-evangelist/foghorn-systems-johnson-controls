@@ -1,8 +1,28 @@
 aid: foghorn-systems-johnson-controls
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foghorn-systems-johnson-controls.png
 name: FogHorn Systems (Johnson Controls)
-description: 'FogHorn Systems (Johnson Controls) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'FogHorn Systems was a Sunnyvale, California developer of edge AI and machine
+  learning software for the industrial and commercial Internet of Things (IIoT). Its Lightning
+  Edge AI platform and Lightning EdgeML brought real-time streaming analytics and ML inference
+  to constrained on-premises edge hardware for predictive maintenance, machine optimization,
+  and operational intelligence use cases. Johnson Controls acquired FogHorn in January 2022 and
+  folded its team and technology into the OpenBlue suite of smart, autonomous building solutions,
+  with the former Sunnyvale headquarters operating as a Johnson Controls "AI Hub." FogHorn no
+  longer operates as a standalone brand and publishes no independent public developer surface —
+  no developer portal, API reference, SDKs, or GitHub organization resolve as of this enrichment
+  pass; the former foghorn.io/foghorn.ai domains are parked. This profile is retained as a
+  network company record with no public API artifacts to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/foghorn-systems-johnson-controls/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +32,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: acquired
+x-acquired-by: johnson-controls
+x-acquired-date: '2022-01-12'
+x-enrichment-note: No standalone public developer surface (portal/API/SDKs/GitHub) resolves; brand absorbed into Johnson Controls OpenBlue. No API artifacts to harvest without fabrication.
 tags:
 - Company
 - Ai Apps
+- Edge AI
+- Industrial IoT
+- Machine Learning
+- Edge Computing
+- Smart Buildings
+- IIoT
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
