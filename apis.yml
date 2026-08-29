@@ -35,6 +35,9 @@ description: 'FogHorn Systems was a Sunnyvale, California developer of edge AI a
   pass; the former foghorn.io/foghorn.ai domains are parked. This profile is retained as a
   network company record with no public API artifacts to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/foghorn-systems-johnson-controls/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile is retained as a network company record with no public API artifacts to harvest."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
