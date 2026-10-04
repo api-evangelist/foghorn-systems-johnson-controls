@@ -56,10 +56,9 @@ tags:
 - Ai Apps
 - Edge AI
 - Industrial IoT
-- Machine-Learning
+- Machine Learning
 - Edge Computing
 - Smart Buildings
-- IIoT
 tags_raw:
 - Company
 - Ai Apps
@@ -69,6 +68,7 @@ tags_raw:
 - Edge Computing
 - Smart Buildings
 - IIoT
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
